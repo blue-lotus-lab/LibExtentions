@@ -9,7 +9,7 @@ pragma solidity ^0.8.0;
  *        return LibProtector._protected();
  *    }
  *  
- *    // reentrancy guard
+ *    // using for reentrancy guard
  *    function withdraw() public payable {
  *        require(LibProtector._protected());
  *        // the code here
