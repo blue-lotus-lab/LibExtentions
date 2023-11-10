@@ -6,6 +6,8 @@ pragma solidity ^0.8.0;
  * first import library, then
  *  ```
  *    using TailRecursiveLoop for uint256;
+ *    uint256 start = 10;
+ *    uint256 end = 15;
  *    fn() { start.tailRecursiveForLoop(end, this.myCallback);}
  *  ```
  * then implementing requirment functions.
