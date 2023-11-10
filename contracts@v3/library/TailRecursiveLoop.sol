@@ -16,6 +16,13 @@ pragma solidity ^0.8.0;
 */
 
 library TailRecursiveLoop {
+    function loop(uint256 start, uint256 end, function(uint256) external callback) internal {
+        if (start <= end) {
+            callback(start);
+            loop(start + 1, end, callback);
+        }
+    }
+    
     function tailRecursiveForLoop(uint256 start, uint256 end, function(uint256) external callback) internal {
         if (start <= end) {
             callback(start);
