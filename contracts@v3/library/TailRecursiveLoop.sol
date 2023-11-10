@@ -9,7 +9,7 @@ pragma solidity ^0.8.0;
  *    uint256 start = 10;
  *    uint256 end = 15;
  *    fn() { start.tailRecursiveForLoop(end, this.myCallback);}
- *     function myCallback(uint256 iteration) external {...}
+ *    function myCallback(uint256 iteration) external {...}
  *  ```
  * then implementing requirment functions.
  *
