@@ -53,7 +53,8 @@ contract MyContract {
         
         start.tailRecursiveForLoop(end, this.myCallback);
     }
-    
+
+    // lambda scope always external or internal
     function myCallback(uint256 iteration) external {
         // Perform your logic for each iteration here
         // This function will be called for each iteration of the loop
