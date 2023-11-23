@@ -6,9 +6,9 @@ Publish only on [this repository](https://github.com/blue-lotus-lab/LibExtention
 
 ---
 
-- free to use on your research
-- free to use on your product as/at/on your own risks
-- our budget to improve this ai is limited, you can help us by conecting "contact@lotuschain.org" subject "help for ai/research"
+- 📑 Free to use on your research
+- 🧾 Free to use on your product as/at/on your own risks
+- 🧙‍♂️ Our budget to improve this ai is limited, you can help us by conecting "contact@lotuschain.org" subject "help for ai/research"
 
 ---
 
