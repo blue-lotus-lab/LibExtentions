@@ -12,4 +12,6 @@ Publish only on [this repository](https://github.com/blue-lotus-lab/LibExtention
 
 ---
 
-<sup>under the license: GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007</sup>
+<div align="right">
+  <sup>under the license: GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007</sup>
+</div>
