@@ -54,10 +54,10 @@ Blockchain technology has gained significant attention in recent years due to it
    - This decentralization can lead to increased efficiency, reduced costs, and improved resilience in internet-based systems.
 
 4. **Applications**:
-   - Supply Chain Management: Integrating blockchain with TCP/IP can provide end-to-end visibility and traceability in supply chains, ensuring the authenticity and integrity of products.
-   - Internet of Things (IoT): Blockchain can enhance the security and privacy of IoT devices by providing a decentralized and tamper-proof record of device interactions.
-   - Digital Identity Management: Blockchain integration with TCP/IP can enable secure and decentralized identity management systems, reducing the risk of identity theft and fraud.
-   - Financial Transactions: Blockchain integration can enhance the security and transparency of financial transactions conducted over the internet.
+   - **Supply Chain Management**: Integrating blockchain with TCP/IP can provide end-to-end visibility and traceability in supply chains, ensuring the authenticity and integrity of products.
+   - **Internet of Things (IoT)**: Blockchain can enhance the security and privacy of IoT devices by providing a decentralized and tamper-proof record of device interactions.
+   - **Digital Identity Management**: Blockchain integration with TCP/IP can enable secure and decentralized identity management systems, reducing the risk of identity theft and fraud.
+   - **Financial Transactions**: Blockchain integration can enhance the security and transparency of financial transactions conducted over the internet.
 
 ---
 
