@@ -9,7 +9,7 @@ Publish only on [this repository](https://github.com/blue-lotus-lab/LibExtention
 - 📑 Free to use on your research
 - 🧾 Free to use on your product as/at/on your own risks
 - ✍️ This Ai used only and improve for blockchain research.
-- 🧙‍♂️ Our budget to improve this ai is limited, you can help us by conecting "contact@lotuschain.org" subject "help for ai/research"
+- 🧙‍♂️ Our budget to improve this ai is limited, you can help us by conecting "contact@lotuschain.org" subject is "`help for ai/research`"
 
 ---
 
