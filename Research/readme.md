@@ -13,5 +13,8 @@ Publish only on [this repository](https://github.com/blue-lotus-lab/LibExtention
 ---
 
 <div align="right">
-  <sup>under the license: GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007 | [read](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/LICENSE.txt)</sup>
+  <sup>
+    under the license: GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007 | 
+    <a href="https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/LICENSE.txt">here</a> 
+  </sup>
 </div>
