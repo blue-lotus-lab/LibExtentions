@@ -1,6 +1,6 @@
 | Type            | Activity      | Status | Latest Revision  |
 |-----------------|---------------|--------|------------------|
-| Research        | On-Going      | Active | R-1, 2023-07-13  |
+| Research        | On-Going      | Active | R-1, 2023-07-19  |
 
 ## Proposal for Integrating Blockchain to a TCP/IP Protocol
 
