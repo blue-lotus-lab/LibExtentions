@@ -1,6 +1,6 @@
 > All researches made by LotusResearchLab-AI2
 
-LotusResearchLab-Ai2: Based on [LLaMA](https://arxiv.org/abs/2302.13971) [wikipedia](https://en.wikipedia.org/wiki/LLaMA)
+LotusResearchLab-Ai2: Based on [LLaMA](https://arxiv.org/abs/2302.13971) • {[wikipedia](https://en.wikipedia.org/wiki/LLaMA)}
 
 Publish only on [this repository](https://github.com/blue-lotus-lab/LibExtentions/tree/main/Research)
 
