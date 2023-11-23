@@ -104,3 +104,5 @@ As technology continues to advance, the integration of blockchain with the TCP/I
 ---
 
 [LotusChain](https://lotuschain.org) | [Lotus Lab](https://github.com/blue-lotus-lab) | contact@lotuschain.org
+
+> All researches made by LotusResearchLab-AI2
