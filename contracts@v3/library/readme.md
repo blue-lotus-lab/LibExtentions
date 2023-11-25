@@ -11,6 +11,7 @@ Public solidity libraries version 0.1.3
 | Protector "Anti contract call" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/Protector.sol) |
 | Loops to "Tail Recursive" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/TailRecursiveLoop.sol) |
 | BitCombiane "Bitwise Combination" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/BitCombine.sol) |
+| Bits "Bitwise & Bitwise mask" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/Bits.sol) |
 
 - Details and helper/example included into snippets.
 
