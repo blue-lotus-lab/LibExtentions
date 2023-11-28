@@ -19,6 +19,8 @@ pragma solidity ^0.8.0;
  * security: using checks in functions to ensure about the user was added or removed before. 
  * in this case can to using "onlyOwner" or user role.
  *
+ * ⚠️ spoiler alert: this method can to bypass, but usefull in many cases. Lts be creative!
+ *
  * Library created by: https://lotuschain.org {LibExtentions}
 */
 
