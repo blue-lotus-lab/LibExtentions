@@ -1,3 +1,7 @@
+<div align="right">
+<sub>Public | Researches with lotus ai</sub>
+</div>
+
 > All researches made by LotusResearchLab-AI2
 
 LotusResearchLab-Ai2: Based on [LLaMA](https://arxiv.org/abs/2302.13971) • {[wikipedia](https://en.wikipedia.org/wiki/LLaMA)}
