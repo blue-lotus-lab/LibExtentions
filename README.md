@@ -1,3 +1,7 @@
+<div align="right">
+<sub>Public | ShowCase</sub>
+</div>
+
 # LibExtentions
 | domain | version | solidity version | scope |
 |---|---|---|---|
