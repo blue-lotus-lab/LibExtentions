@@ -24,7 +24,7 @@ How to use: Simple, each ERC1155 ID's referencing/representing an unique ERC20.
 
 #### The Ultimate Solution: A Combination Approach
 To achieve the highest level of efficiency and user experience, a combination of the aforementioned solutions is proposed. By integrating the "permit ERC20" mechanism, ERC721, and ERC1155 standards, swap platforms can offer a unique and robust solution. Users will benefit from reduced gas fees, stable swap positions, and the ability to swap multiple ERC20 pairs seamlessly. This comprehensive approach represents the future of efficient cryptocurrency swaps.\
-Situations: For example combining EIP712 with EIP1271 for signatures on the combination solution. This is need to research and tests.
+**Situations**: For example combining EIP712 with EIP1271 for signatures on the combination solution. This is need to research and tests.
 
 ### Conclusion
 Cryptocurrency swaps have become an integral part of the digital asset ecosystem. However, the existing inefficiencies associated with gas fees and unnecessary transactions pose significant challenges. This paper has presented a holistic approach to address these issues, combining the utilization of signature, NFT standards (ERC721), and the implementation of the "permit ERC20" mechanism. Furthermore, it has explored the potential benefits of leveraging ERC1155 tokens for enhanced swap functionality. By adopting these solutions, swap platforms can offer users a more efficient and seamless experience in the future.
