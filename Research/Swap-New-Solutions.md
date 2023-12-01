@@ -20,7 +20,7 @@ To address the issue of unnecessary transactions and enhance the stability of sw
 #### Harnessing the Power of ERC1155
 Another solution to optimize cryptocurrency swaps involves the utilization of ERC1155 tokens. By leveraging ERC1155, users can create a unique ERC1155 smart contract, which serves as an aggregator for the swap platform. Users can mint ERC1155 tokens as pair tokens (e.g., TokenA and TokenB), providing a seamless and efficient method for swapping multiple ERC20 pairs. This solution reduces the need for multiple transactions and enhances the user experience on swap platforms.\
 Swap platforms can to create an ERC1155 factory contract for each user, when user want to trade/swap can to have that.\
-How to use: Simple, each ERC1155 ID'd referencing/representing an unique ERC20.
+How to use: Simple, each ERC1155 ID's referencing/representing an unique ERC20.
 
 #### The Ultimate Solution: A Combination Approach
 To achieve the highest level of efficiency and user experience, a combination of the aforementioned solutions is proposed. By integrating the "permit ERC20" mechanism, ERC721, and ERC1155 standards, swap platforms can offer a unique and robust solution. Users will benefit from reduced gas fees, stable swap positions, and the ability to swap multiple ERC20 pairs seamlessly. This comprehensive approach represents the future of efficient cryptocurrency swaps.\
