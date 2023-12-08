@@ -13,6 +13,7 @@ Public solidity libraries version 0.1.3
 | BitCombiane "Bitwise Combination" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/BitCombine.sol) |
 | Bits "Bitwise & Bitwise mask" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/Bits.sol) |
 | JSON Generator "output to json" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/JsonGenerator.sol) |
+| ASCII Convertor "String to Number" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts@v3/library/AsciiConverter.sol) |
 
 - Details and helper/example included into snippets.
 
