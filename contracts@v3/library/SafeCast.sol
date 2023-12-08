@@ -2,6 +2,7 @@
 pragma solidity ^0.8.0;
 
 /**
+ * SAFECAST: UINT EDITION
  * @dev How to use:
  * first import library, then
  *  ```
