@@ -20,5 +20,5 @@ Public solidity libraries version 0.1.3
 # 
 
 <div align="right">
-Made by <a href="https://lotuschain.org">LotusChain</a>
+<sub>Made by <a href="https://lotuschain.org">LotusChain</a></sub>
 </div>
