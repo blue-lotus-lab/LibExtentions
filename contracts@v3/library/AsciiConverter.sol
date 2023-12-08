@@ -14,8 +14,6 @@ pragma solidity ^0.8.0;
  *  ```
  * then implementing requirment functions.
  *
- * this is work on "string, int256, bool". you can inspire from it!
- *
  * Library created by: https://lotuschain.org {LibExtentions}
 */
 
