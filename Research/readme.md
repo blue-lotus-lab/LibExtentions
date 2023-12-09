@@ -31,6 +31,6 @@ We are work on these for creating the solutions to helping the community and/or 
 <div align="right">
   <sup>
     under the license: GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007 | 
-    <a href="https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/LICENSE.txt">here</a> 
+    <a href="./LICENSE">here</a> 
   </sup>
 </div>
