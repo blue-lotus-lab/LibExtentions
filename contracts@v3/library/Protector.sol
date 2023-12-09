@@ -56,3 +56,69 @@ library LibProtector {
     }
 ]
 ---------------------------------------------------------------------------------- */
+
+// how to fix exploit:
+
+/*
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+library LibProtector {
+    modifier nonReentrant() {
+        require(!_locked, "Reentrant call detected!");
+        _locked = true;
+        _;
+        _locked = false;
+    }
+
+    // Check if the caller is an externally-owned account (EOA)
+    function isEOA() internal view returns (bool) {
+        return msg.sender == tx.origin;
+    }
+
+    // Check if the caller is a contract
+    function isContract() internal view returns (bool) {
+        return !isEOA() && _getCodeSize(msg.sender) > 0;
+    }
+
+    function _getCodeSize(address account) internal view returns (uint) {
+        bytes32 codehash;
+        assembly {
+            codehash := extcodehash(account)
+        }
+        return uint(codehash);
+    }
+
+    // ---------------------------------------------------------------
+    // • for library use case
+    // Example use:
+    // require(LibProtector._protected());
+    // --------------------------------------------------------------- 
+    function _protected() internal view nonReentrant returns (bool) {
+        return !isContract();
+    }
+
+    // Ensure the library is not used across multiple calls in the same transaction
+    bool private _locked;
+}
+
+// example to use
+// import "./LibProtector.sol";
+
+contract MyContract {
+    using LibProtector for LibProtector;
+
+    // Example function using the _protected modifier
+    function myFunction() external view LibProtector._protected returns (string memory) {
+        // Your protected logic here
+        return "Function executed successfully!";
+    }
+
+    // Example function that can be reentrant
+    function myReentrantFunction() external view LibProtector.nonReentrant returns (string memory) {
+        // Your reentrant logic here
+        return "Reentrant function executed successfully!";
+    }
+}
+
+*/
