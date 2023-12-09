@@ -8,6 +8,8 @@
 - [Exploring Future Solutions for Efficient Cryptocurrency Swaps](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/Swap-New-Solutions.md)
 - [Leveraging Directed Acyclic Graph (DAG) Logic in Ethereum Smart Contracts](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/DAG-in-Blockchain-Use-Smartcontract.md)
 
+#
+
 > All researches made by LotusResearchLab-AI2
 
 LotusResearchLab-Ai2: Based on [LLaMA](https://arxiv.org/abs/2302.13971) • {[wikipedia](https://en.wikipedia.org/wiki/LLaMA)}
