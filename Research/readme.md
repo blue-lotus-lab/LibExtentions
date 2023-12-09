@@ -13,7 +13,7 @@
 
 <div align="right">
   <sup>
-    Under the license: GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007 | 
+    Under the license: (gnu-gpl3) GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007 | 
     <a href="./LICENSE">here</a> 
   </sup>
 </div>
