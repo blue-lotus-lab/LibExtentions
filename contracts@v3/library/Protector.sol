@@ -20,6 +20,7 @@ pragma solidity ^0.8.0;
  * in this case can to using "onlyOwner" or user role.
  *
  * ⚠️ spoiler alert: this method can to bypass, but usefull in many cases. Lts be creative!
+ * Security fix after the librart in buttom of codes.
  *
  * Library created by: https://lotuschain.org {LibExtentions}
 */
