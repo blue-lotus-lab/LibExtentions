@@ -18,7 +18,7 @@ Public solidity libraries version 0.1.3
 | 12 | Safe Cast "int & uint" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/SafeCast.sol) |
 | 13 | Safe Cast "unsigned integer's" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/SafeCastUint.sol) |
 | 14 | Safe Cast "signed integer's" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/SafeCastInt.sol) |
-| 15 | Chain Condition "condition statement" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/ChainCondition.sol) |
+| 15 | Chain Condition "multiple if statement" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/ChainCondition.sol) |
 | 16 | ForEach "for each statement" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/ForEach.sol) |
 | 17 | LinkedList "not limited edition" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/LinkedList.sol) |
 | 18 | REGX ASCII "character set validation" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/RegxAsciiSet.sol) |
