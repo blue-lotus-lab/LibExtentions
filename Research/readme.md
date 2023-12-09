@@ -19,8 +19,9 @@ Publish only on [this repository](https://github.com/blue-lotus-lab/LibExtention
 ---
 
 **About the researches published here**:\
+<sub>
 We are work on these for creating the solutions to helping the community and/or industry in different cases. So codes not public for now, they're stand to test and finish.
-
+</sub>
 - 📑 Free to use on your research
 - 🧾 Free to use on your product as/at/on your own risks
 - ✍️ This Ai used only and improve for blockchain research.
