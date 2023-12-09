@@ -8,7 +8,7 @@ pragma solidity ^0.8.0;
  *   examples of "how to use" in buttom of this file
  *  ```
  * 
- * ! not limitation of use this linked-list statement !
+ * ! not limitation of use this convertor statement !
  *
  * you can inspire from it!
  *
