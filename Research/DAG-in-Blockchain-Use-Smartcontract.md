@@ -205,4 +205,4 @@ In conclusion, the article emphasizes the significance of Directed Acyclic Graph
 
 [LotusChain](https://lotuschain.org) | [Lotus Lab](https://github.com/blue-lotus-lab) | contact@lotuschain.org
 
-> All researches made by LotusResearchLab-AI2
+> All researches made by LotusResearchLab
