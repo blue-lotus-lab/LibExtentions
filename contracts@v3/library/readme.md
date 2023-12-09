@@ -3,7 +3,7 @@ Public solidity libraries version 0.1.3
 
 ### content table
 | ID | Library | Link |
-|---|---:|:---|
+|---|:---|:---|
 | 1 | Partnership | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/Partnership.sol) |
 | 2 | Whitelist "On-chain" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/Whitelist.sol) |
 | 3 | Share Incomes "Naitive" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/ShareIncome.sol) |
