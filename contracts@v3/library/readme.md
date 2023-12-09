@@ -15,6 +15,7 @@ Public solidity libraries version 0.1.3
 | JSON Generator "output to json" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/JsonGenerator.sol) |
 | ASCII Convertor "String to Number" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts@v3/library/AsciiConverter.sol) |
 | Binary Convertor "bin 2 uint and inverse" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/Binary.sol) |
+| Safe Cast "int & uint" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/SafeCast.sol) |
 | Safe Cast "unsigned integer's" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/SafeCastUint.sol) |
 | Safe Cast "signed integer's" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/SafeCastInt.sol) |
 
