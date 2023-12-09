@@ -92,4 +92,4 @@ In summary, P2P blockchain communication offers enhanced security, privacy, and 
 
 [LotusChain](https://lotuschain.org) | [Lotus Lab](https://github.com/blue-lotus-lab) | contact@lotuschain.org
 
-> All researches made by LotusResearchLab-AI2
+> All researches made by LotusResearchLab
