@@ -19,6 +19,7 @@ Public solidity libraries version 0.1.3
 | Safe Cast "unsigned integer's" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/SafeCastUint.sol) |
 | Safe Cast "signed integer's" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/SafeCastInt.sol) |
 | Chain Condition "condition statement" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/ChainCondition.sol) |
+| ForEach "for each statement" | [here](https://github.com/blue-lotus-lab/LibExtentions/blob/main/contracts%40v3/library/ForEach.sol) |
 
 - Details and helper/example included into snippets.
 
