@@ -33,4 +33,4 @@ Cryptocurrency swaps have become an integral part of the digital asset ecosystem
 
 [LotusChain](https://lotuschain.org) | [Lotus Lab](https://github.com/blue-lotus-lab) | contact@lotuschain.org
 
-> All researches made by LotusResearchLab-AI2
+> All researches made by LotusResearchLab
