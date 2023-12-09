@@ -10,7 +10,7 @@ pragma solidity ^0.8.0;
  * 
  * ! not limitation of use this condition statement !
  *
- * you can inspire from it!
+ * setup the gas optimization for use this. you can inspire from it!
  *
  * Library created by: https://lotuschain.org {LibExtentions}
 */
