@@ -6,6 +6,12 @@
 
 Smart contracts on the Ethereum blockchain have revolutionized the way we handle transactions and execute code in a decentralized manner. A fascinating avenue within smart contract development is the application of Directed Acyclic Graph (DAG) logic. This article delves into the implementation of DAG logic in Ethereum's Solidity language and explores diverse use cases where this approach can bring significant advantages.
 
+## Abstract:
+Smart contracts on the Ethereum blockchain have reshaped the landscape of decentralized applications, offering transparency and security in code execution. This article explores the implementation of Directed Acyclic Graph (DAG) logic in Ethereum's Solidity language, shedding light on foundational concepts and presenting diverse use cases. The study delves into the intricacies of DAG logic, offering insights into its potential to enhance the structure and efficiency of decentralized systems.
+
+## Introduction:
+Smart contracts on the Ethereum blockchain have revolutionized the way transactions and code execution are handled in a decentralized manner. Among the innovative approaches within smart contract development, Directed Acyclic Graph (DAG) logic stands out as a promising avenue. This article provides a comprehensive exploration of DAG logic, demonstrating its implementation in Ethereum's Solidity language. It elucidates the underlying concepts of DAGs, their relevance in smart contracts, and how they bring structure to decentralized systems. The article then delves into an in-depth analysis of the Solidity code, examining key functions that facilitate task execution, circular dependency checks, and considerations for gas usage. With a focus on practical use cases, the article illustrates the versatility of DAG logic in addressing specific challenges within decentralized applications.
+
 ## Understanding DAG Logic in Smart Contracts
 
 Directed Acyclic Graphs (DAGs) are data structures that find application in various fields, from network topology to task scheduling. In the context of Ethereum smart contracts, DAG logic provides a mechanism to represent dependencies between tasks or actions. Nodes in the graph signify tasks, and edges denote dependencies, ensuring tasks are executed in a specific, predefined order. This brings a level of structure and order to decentralized systems that can greatly enhance their functionality and reliability.
