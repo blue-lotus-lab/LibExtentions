@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 /**
- * Staking Pool Reward, Native stak & reward ERC20
+ * Staking Pool Reward, Native stak & reward ERC20, Work with block number
  * 
  * disclaimer
  *
