@@ -12,8 +12,8 @@ Public solidity snippets version 0.1.3
 | 06 | **Interfaces** for Wrap eth & erc20 | [here](./Wrap/WrapInterfaces.sol) |
 | 07 | **Wrap** based on eth (native) | [here](./Wrap/WrapETH.sol) |
 | 08 | **Wrap** based on erc20 (non-native) | [here](./Wrap/WrapErc20.sol) |
-| 09 | **Staking** based on erc20 (non-native) | [here](./Staking/StakingERC20.sol) , Work with `block number` |
-| 10 | **Staking** based on eth (reward erc20) | [here](./Staking/StakingETH.sol) , Work with `block number` |
+| 09 | **Staking** based on erc20 (non-native) , Work with `block number` | [here](./Staking/StakingERC20.sol) |
+| 10 | **Staking** based on eth (reward erc20) , Work with `block number` | [here](./Staking/StakingETH.sol) |
 
 ### disclaimer
 - Production by using these snippets at your own risk.
