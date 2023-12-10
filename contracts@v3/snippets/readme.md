@@ -7,7 +7,7 @@ Public solidity snippets version 0.1.3
 | 1 | **Crowd FundRaising** based on time | [here](./CrowdFund/CrowdFundBasedTime.sol) |
 | 2 | **Crowd FundRaising** based on block | [here](./CrowdFund/CrowdFundBasedBlock.sol) |
 | 3 | **Escrow** based on erc20 | [here](./Escrow/Escrow.sol) |
-| 4 | **Escrow** based on erc20 | [here](./Escrow/EscrowObserver.sol) |
+| 4 | **Escrow** based on erc20 (observer) | [here](./Escrow/EscrowObserver.sol) |
 | 5 | **Escrow** based on eth (native) | [here](./Escrow/EscrowObserverEth.sol) |
 
 ### disclaimer
