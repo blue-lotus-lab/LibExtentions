@@ -8,7 +8,7 @@ Public solidity snippets version 0.1.3
 | 2 | **Crowd FundRaising** based on block | [here](./CrowdFund/CrowdFundBasedBlock.sol) |
 | 3 | **Escrow** based on erc20 | [here](./Escrow/Escrow.sol) |
 | 4 | **Escrow** based on erc20 | [here](./Escrow/EscrowObserver.sol) |
-| 5 | **Escrow** based on erc20 | [here](./Escrow/EscrowObserverEth.sol) |
+| 5 | **Escrow** based on eth (native) | [here](./Escrow/EscrowObserverEth.sol) |
 
 ### disclaimer
 - Production by using these snippets at your own risk.
