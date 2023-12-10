@@ -2,7 +2,7 @@
 Public solidity snippets version 0.1.3
 
 ### content table
-| ID | Snippets | Link |
+| ID | Snippets | Detail | Link |
 |---|:---|:---|:---|
 | 01 | **Crowd FundRaising** | Work with `time stamp` | [here](./CrowdFund/CrowdFundBasedTime.sol) |
 | 02 | **Crowd FundRaising** | Work with `block number` | [here](./CrowdFund/CrowdFundBasedBlock.sol) |
