@@ -34,6 +34,11 @@ contract WToken is ERC20, ReentrancyGuard, Ownable {
         underlyingToken = IERC20(_underlyingToken);
     }
 
+    // Fallback function to receive native tokens (ETH)
+    receive() external payable {
+        revert("Fallback function not allowed");
+    }
+
     modifier nonZeroAddress(address _addr) {
         require(_addr != address(0), "Zero address not allowed");
         _;
