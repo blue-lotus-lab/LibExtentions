@@ -12,7 +12,7 @@ Public solidity snippets version 0.1.3
 
 ### disclaimer
 - Production by using these snippets at your own risk.
-- Make your own security before launching product.
+- Make your own security audit before launching product.
 
 # 
 
