@@ -4,14 +4,16 @@ Public solidity snippets version 0.1.3
 ### content table
 | ID | Snippets | Link |
 |---|:---|:---|
-| 1 | **Crowd FundRaising** based on time | [here](./CrowdFund/CrowdFundBasedTime.sol) |
-| 2 | **Crowd FundRaising** based on block | [here](./CrowdFund/CrowdFundBasedBlock.sol) |
-| 3 | **Escrow** based on erc20 | [here](./Escrow/Escrow.sol) |
-| 4 | **Escrow** based on erc20 (observer) | [here](./Escrow/EscrowObserver.sol) |
-| 5 | **Escrow** based on eth (native) | [here](./Escrow/EscrowObserverEth.sol) |
-| 6 | **Interfaces** for Wrap eth & erc20 | [here](./Wrap/WrapInterfaces.sol) |
-| 7 | **Wrap** based on eth (native) | [here](./Wrap/WrapETH.sol) |
-| 8 | **Wrap** based on erc20 (non-native) | [here](./Wrap/WrapErc20.sol) |
+| 01 | **Crowd FundRaising** based on time | [here](./CrowdFund/CrowdFundBasedTime.sol) |
+| 02 | **Crowd FundRaising** based on block | [here](./CrowdFund/CrowdFundBasedBlock.sol) |
+| 03 | **Escrow** based on erc20 | [here](./Escrow/Escrow.sol) |
+| 04 | **Escrow** based on erc20 (observer) | [here](./Escrow/EscrowObserver.sol) |
+| 05 | **Escrow** based on eth (native) | [here](./Escrow/EscrowObserverEth.sol) |
+| 06 | **Interfaces** for Wrap eth & erc20 | [here](./Wrap/WrapInterfaces.sol) |
+| 07 | **Wrap** based on eth (native) | [here](./Wrap/WrapETH.sol) |
+| 08 | **Wrap** based on erc20 (non-native) | [here](./Wrap/WrapErc20.sol) |
+| 09 | **Staking** based on erc20 (non-native) | [here](./Staking/StakingERC20.sol) |
+| 10 | **Staking** based on eth (reward erc20) | [here](./Staking/StakingETH.sol) |
 
 ### disclaimer
 - Production by using these snippets at your own risk.
