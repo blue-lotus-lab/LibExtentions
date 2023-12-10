@@ -4,8 +4,8 @@ Public solidity snippets version 0.1.3
 ### content table
 | ID | Snippets | Detail | Link |
 |---|:---|:---|:---|
-| 01 | **Crowd FundRaising** | Work with `time stamp` | [here](./CrowdFund/CrowdFundBasedTime.sol) |
-| 02 | **Crowd FundRaising** | Work with `block number` | [here](./CrowdFund/CrowdFundBasedBlock.sol) |
+| 01 | **Crowd FundRaising** | based on erc20, Work with `time stamp` | [here](./CrowdFund/CrowdFundBasedTime.sol) |
+| 02 | **Crowd FundRaising** | based on erc20, Work with `block number` | [here](./CrowdFund/CrowdFundBasedBlock.sol) |
 | 03 | **Escrow** | based on erc20 | [here](./Escrow/Escrow.sol) |
 | 04 | **Escrow** | based on erc20 (observer) | [here](./Escrow/EscrowObserver.sol) |
 | 05 | **Escrow** | based on eth (native) | [here](./Escrow/EscrowObserverEth.sol) |
