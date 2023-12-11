@@ -20,7 +20,7 @@ Embarking on a Journey of Innovation: Crafting inventive utilities, libraries, a
 We are not just a group or team; we are a decentralized consortium of blockchain developers. Our commitment lies in the creation of products and codes designed to empower and enrich the broader blockchain community.
 
 **Disclaimer**:\
-Do smart security audit to all this codes before using on your product. We are not responsible to any problem.
+Do smart security audit to all codes before using on your product. We are not responsible to any problem.
 <!--
 **Information**:\
 We are build creative utitls/libraries/smartcontracts for developers/users/organizations. Our codes maybe using other infrastructures like openzeppelin into some codes.
