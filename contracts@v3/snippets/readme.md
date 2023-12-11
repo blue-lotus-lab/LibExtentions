@@ -14,9 +14,9 @@ Public solidity snippets version 0.1.3
 | 08 | **Wrap** | based on erc20 (non-native) | [here](./Wrap/WrapErc20.sol) |
 | 09 | **Staking** | based on erc20 (non-native) , Work with `block number` | [here](./Staking/StakingERC20.sol) |
 | 10 | **Staking** | based on eth (reward erc20) , Work with `block number` | [here](./Staking/StakingETH.sol) |
-| 10 | **Portfolio Management** | based on erc20 | [here](./Portfolio/PortfolioManagement.sol) |
-| 11 | **DAO** | Work with `block number` | [here](./DAO/DAO.sol) |
-| 12 | **JobBoard** | DAO branch, Work with `milestone` | [here](./DAO/FreelancePlatform.sol) |
+| 11 | **Portfolio Management** | based on erc20 | [here](./Portfolio/PortfolioManagement.sol) |
+| 12 | **DAO** | DAO, Work with `block number` | [here](./DAO/DAO.sol) |
+| 13 | **JobBoard** | DAO branch, Work with `milestone` | [here](./DAO/FreelancePlatform.sol) |
 
 ### disclaimer
 - Production by using these snippets at your own risk.
