@@ -15,7 +15,7 @@ pragma solidity ^0.8.0;
  * Snippets created by: https://lotuschain.org {LibExtentions}
 */
 
-// todo: in production not using timestamp, using oracle for time cinditions.
+// todo: in production not using timestamp, using oracle for time conditions.
 
 import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
