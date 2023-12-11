@@ -149,3 +149,6 @@ This smart contract is licensed under the MIT + GNU-GPL3 Dual Licenses, granting
 ## Liberation
 Which solution shines brighter—this one or ECDS alternatives such as merkle-proof or signing messages? 
 - The only thing that truly counts is the scope of the use case!
+
+## Disclaimer
+This is just a tutorial example, not a product code. Just inspire from this.
