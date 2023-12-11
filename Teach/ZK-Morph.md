@@ -146,6 +146,6 @@ Inherits from ERC-721 and utilizes `SimpleVerifier` for proof verification.
 
 This smart contract is licensed under the MIT + GNU-GPL3 Dual Licenses, granting users the freedom to use, modify, and distribute the code.
 
-## Ask
-Did this solution better or ECDS solutions (like merkle-proof, signing message)?
-- Only things matter the scope of usecase!
+## Liberation
+Which solution shines brighter—this one or ECDS alternatives such as merkle-proof or signing messages? 
+- The only thing that truly counts is the scope of the use case!
