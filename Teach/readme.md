@@ -3,7 +3,7 @@
 </div>
 
 #### Content list
-- [ZK-Proof from sSmartcontract](./ZK-Morph.md.md)
+- [ZK-Proof from Smartcontract](./ZK-Morph.md.md)
 
 ---
 
