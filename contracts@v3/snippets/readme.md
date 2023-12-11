@@ -15,6 +15,7 @@ Public solidity snippets version 0.1.3
 | 09 | **Staking** | based on erc20 (non-native) , Work with `block number` | [here](./Staking/StakingERC20.sol) |
 | 10 | **Staking** | based on eth (reward erc20) , Work with `block number` | [here](./Staking/StakingETH.sol) |
 | 11 | **DAO** | Work with `block number` | [here](./DAO/DAO.sol) |
+| 11 | **JobBoard** | Work with `milestone` | [here](./DAO/FreelancePlatform.sol) |
 
 ### disclaimer
 - Production by using these snippets at your own risk.
