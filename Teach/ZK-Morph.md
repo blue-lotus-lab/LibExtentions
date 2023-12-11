@@ -116,7 +116,7 @@ Inherits from ERC-721 and utilizes `SimpleVerifier` for proof verification.
 
    Deploy the `ZKNft` contract by providing a secret value for the zero-knowledge proof verification process.
 
-   Using example secret & public key:
+   ✍️ Using example secret & public key:
    - **bytes**:   `0x0796c429dc324fa355cb5993bd527a4365fb66d4bf5b1d39fb847d28898efab9`
    - **bytes32**: `0x9e130d492c15bbba04c936280488681404803846f779549b383dfd936f80e03c`
 
