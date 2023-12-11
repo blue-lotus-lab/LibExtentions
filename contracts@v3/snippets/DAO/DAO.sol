@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 /**
- * Crowd FundRaising, Based on block
+ * DAO, Based on block
  * 
  * disclaimer
  *
