@@ -144,4 +144,4 @@ Inherits from ERC-721 and utilizes `SimpleVerifier` for proof verification.
 
 ## License
 
-This smart contract is licensed under the MIT License, granting users the freedom to use, modify, and distribute the code.
+This smart contract is licensed under the MIT + GNU-GPL3 Dual Licenses, granting users the freedom to use, modify, and distribute the code.
