@@ -17,7 +17,7 @@
 We are build creative utitls/libraries/smartcontracts for developers/users/organizations. Our codes maybe using other infrastructures like openzeppelin into some codes.
 
 **Disclaimer**:\
-Using our codes without smart security audit on/in/into/at your prodtion codes is/as/with your own risk.
+Using our codes without smart security audit on/in/into/at your production codes is/as/with your own risk.
 
 # 
 
