@@ -6,6 +6,7 @@
 The ZKNft smart contract is an Ethereum-based ERC-721 token contract that provides a mechanism for users to claim and mint unique tokens using a zero-knowledge proof. It consists of two main contracts: `SimpleVerifier` and `ZKNft`. The `SimpleVerifier` contract handles zero-knowledge proof verification, while the `ZKNft` contract inherits from ERC-721 and integrates the `SimpleVerifier` for secure token claiming.
 
 ## Contracts
+> deploy assist: [here](./ZK-Morph.md#usage)
 
 ### 1. SimpleVerifier
 ```solidity
