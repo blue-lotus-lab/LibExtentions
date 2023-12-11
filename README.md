@@ -16,6 +16,9 @@
 **Information**:\
 We are build creative utitls/libraries/smartcontracts for developers/users/organizations. Our codes maybe using other infrastructures like openzeppelin into some codes.
 
+**Who are we**:\
+We are a group/team/conterbut decentralized organization of blockchain developers. Our products/codes made for helping the community of blockchain users.
+
 **Disclaimer**:\
 Using our codes without smart security audit on/in/into/at your production codes is/as/with your own risk.
 
