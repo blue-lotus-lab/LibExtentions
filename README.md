@@ -7,7 +7,7 @@
 |---|---|---|---|
 | {[LibExtentions](https://github.com/blue-lotus-lab/LibExtentions/tree/main/contracts%40v3/library)} | @v3 | solidity ^0.8.0 | public solidity libraries |
 | {[ContractExtentions](https://github.com/blue-lotus-lab/LibExtentions/tree/main/contracts%40v3/snippets)} | @v3 | solidity ^0.8.0 | public solidity snipet, code |
-| {[TeachCenter](https://github.com/blue-lotus-lab/LibExtentions/tree/main/teach)} | @v3 | solidity ^0.8.0 | public solidity tips & tricks |
+| {[TeachCenter](https://github.com/blue-lotus-lab/LibExtentions/tree/main/Teach)} | @v3 | solidity ^0.8.0 | public solidity tips & tricks |
 | {[Research](https://github.com/blue-lotus-lab/LibExtentions/tree/main/Research)} | @v2 | Article/Essay | Private code - Public research outputs |
 
 **version 0.1.3**
