@@ -3,7 +3,7 @@ Public solidity snippets version 0.1.3
 
 ### content table
 | ID | Snippets | Detail | Link |
-|---|:---|:---|:---|
+|----|:---|:---|:---|
 | 01 | **Crowd FundRaising** | based on erc20, Work with `time stamp` | [here](./CrowdFund/CrowdFundBasedTime.sol) |
 | 02 | **Crowd FundRaising** | based on erc20, Work with `block number` | [here](./CrowdFund/CrowdFundBasedBlock.sol) |
 | 03 | **Escrow** | based on erc20 | [here](./Escrow/Escrow.sol) |
@@ -15,8 +15,13 @@ Public solidity snippets version 0.1.3
 | 09 | **Staking** | based on erc20 (non-native) , Work with `block number` | [here](./Staking/StakingERC20.sol) |
 | 10 | **Staking** | based on eth (reward erc20) , Work with `block number` | [here](./Staking/StakingETH.sol) |
 | 11 | **Portfolio Management** | based on erc20 | [here](./Portfolio/PortfolioManagement.sol) |
-| 12 | **DAO** | DAO, Work with `block number` | [here](./DAO/DAO.sol) |
-| 13 | **JobBoard** | DAO branch, Work with `milestone` | [here](./DAO/FreelancePlatform.sol) |
+
+| ID | Snippets | Detail | Link |
+|----|:---|:---|:---|
+| -- | **DAO Branche's ** | DAO Smartcontracts | [here](./DAO) |
+| 01 | **DAO** | DAO, Work with `block number` | [here](./DAO/DAO.sol) |
+| 02 | **JobBoard** | DAO branch, Work with `milestone` | [here](./DAO/FreelancePlatform.sol) |
+| 03 | **Reservation** | DAO branch, Work with `time` | [here](./DAO/INNKeeper.sol) |
 
 ### disclaimer
 - Production by using these snippets at your own risk.
