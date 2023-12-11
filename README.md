@@ -13,13 +13,13 @@
 
 #
 
-**Information**:
+**Information**:\
 Embarking on a Journey of Innovation: Crafting inventive utilities, libraries, and smart contracts tailored for developers, users, and organizations. Our code may intertwine with diverse infrastructures, such as integrating elements from openzeppelin into certain aspects of our creations.
 
-**Who Are We**:
+**Who Are We**:\
 We are not just a group or team; we are a decentralized consortium of blockchain developers. Our commitment lies in the creation of products and codes designed to empower and enrich the broader blockchain community.
 
-**Disclaimer**:
+**Disclaimer**:\
 Do smart security audit to all this codes before using on your product. We are not responsible to any problem.
 <!--
 **Information**:\
