@@ -1,5 +1,5 @@
 # ZK-morphology Smart Contract Documentation
-**Best point to learning is practice. To the point, learn how to playing with code.**
+**The most effective way to acquire knowledge is through hands-on experience. Cut straight to the chase and immerse yourself in the art of coding.**
 
 ## Overview
 
