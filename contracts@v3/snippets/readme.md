@@ -18,7 +18,7 @@ Public solidity snippets version 0.1.3
 
 | ID | Snippets | Detail | Link |
 |----|:---|:---|:---|
-| -- | **DAO Branche's ** | DAO Smartcontracts | [here](./DAO) |
+| -- | **DAO Branches** | DAO Smartcontracts | [here](./DAO) |
 | 01 | **DAO** | DAO, Work with `block number` | [here](./DAO/DAO.sol) |
 | 02 | **JobBoard** | DAO branch, Work with `milestone` | [here](./DAO/FreelancePlatform.sol) |
 | 03 | **Reservation** | DAO branch, Work with `time` | [here](./DAO/INNKeeper.sol) |
