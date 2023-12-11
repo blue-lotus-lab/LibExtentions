@@ -1,4 +1,4 @@
-# ZKNft Smart Contract Documentation
+# ZK-morphology Smart Contract Documentation
 **Best point to learning is practice. To the point, learn how to playing with code.**
 
 ## Overview
