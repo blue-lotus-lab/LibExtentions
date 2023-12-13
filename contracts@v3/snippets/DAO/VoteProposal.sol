@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 /**
- * Vote to Proposal, DAO branch, Based on block
+ * Vote to Proposal, DAO branch, Based on 7 days
  * 
  * disclaimer
  *
