@@ -190,6 +190,7 @@ contract ZKVerifier {
         return success;
     }
 
+    // actualy need to made nonce on backend or with oracle 
     function _nonce() internal view returns (uint256) {
         return uint256(keccak256(abi.encodePacked(msg.sender, block.timestamp, block.number)));
     }
