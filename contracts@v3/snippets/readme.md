@@ -32,7 +32,7 @@ Public solidity snippets version 0.1.3
 | ID | Snippets | Detail | Link |
 |----|:---|:---|:---|
 | -- | **Reusable** |  | [here](./ERC20) |
-| 01 | **Safe ERC20 Transfer** |  | [here](./ERC20/SafeTransfer.sol) |
+| 01 | **Safe ERC20 Transfer** | converted contract to library | [here](./ERC20/SafeTransfer.sol) |
 
 ### disclaimer
 - Production by using these snippets at your own risk.
