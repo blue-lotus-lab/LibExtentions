@@ -234,6 +234,9 @@ contract ICO is ZKVerifier, ERC20, Ownable {
 
         // Transfer tokens after state is updated
         IERC20(address(this)).safeTransferFrom(address(this), msg.sender, tokensToBuy);
+        // if tokens minted on owner wallet, use next commented code line
+        // todo: next line is vulnerable, must to secure it
+        // _transfer(owner(), msg.sender, tokensToBuy);
     }
 
     function withdrawEther() external onlyOwner {
