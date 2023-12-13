@@ -156,7 +156,7 @@ This is just a tutorial example, not a product code. Just inspire from this.
 ## Simple Usecase
 Simple ICO with using ZK-Proof.
 - using `nonce` for safety 
-- 
+
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
