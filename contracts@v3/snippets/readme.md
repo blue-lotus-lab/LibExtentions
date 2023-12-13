@@ -17,15 +17,15 @@ Public solidity snippets version 0.1.3
 
 | ID | Snippets | Detail | Link |
 |----|:---|:---|:---|
-| -- | **DEFI Perspective** |  |  |
-| 01 | **Portfolio Management** | based on erc20 | [here](./Portfolio/PortfolioManagement.sol) |
-
-| ID | Snippets | Detail | Link |
-|----|:---|:---|:---|
 | -- | **DAO Branches** |  | [here](./DAO) |
 | 01 | **DAO** | DAO, Work with `block number` | [here](./DAO/DAO.sol) |
 | 02 | **JobBoard** | DAO branch, Work with `milestone` | [here](./DAO/FreelancePlatform.sol) |
 | 03 | **Reservation** | DAO branch, Work with `time` | [here](./DAO/INNKeeper.sol) |
+
+| ID | Snippets | Detail | Link |
+|----|:---|:---|:---|
+| -- | **DEFI Perspective** |  |  |
+| 01 | **Portfolio Management** | based on erc20 | [here](./Portfolio/PortfolioManagement.sol) |
 
 
 | ID | Snippets | Detail | Link |
