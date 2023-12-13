@@ -27,6 +27,12 @@ Public solidity snippets version 0.1.3
 | 02 | **JobBoard** | DAO branch, Work with `milestone` | [here](./DAO/FreelancePlatform.sol) |
 | 03 | **Reservation** | DAO branch, Work with `time` | [here](./DAO/INNKeeper.sol) |
 
+
+| ID | Snippets | Detail | Link |
+|----|:---|:---|:---|
+| -- | **Reusable** |  | [here](./ERC20) |
+| 01 | **Safe ERC20 Transfer** |  | [here](./ERC20/SafeTransfer.sol) |
+
 ### disclaimer
 - Production by using these snippets at your own risk.
 - Make your own security audit before launching product.
