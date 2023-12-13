@@ -21,6 +21,7 @@ Public solidity snippets version 0.1.3
 | 01 | **DAO** | DAO, Work with `block number` | [here](./DAO/DAO.sol) |
 | 02 | **JobBoard** | DAO branch, Work with `milestone` | [here](./DAO/FreelancePlatform.sol) |
 | 03 | **Reservation** | DAO branch, Work with `time` | [here](./DAO/INNKeeper.sol) |
+| 04 | **Proposal Vote** | DAO branch, Work with `7 days` | [here](./DAO/VoteProposal.sol) |
 
 | ID | Snippets | Detail | Link |
 |----|:---|:---|:---|
