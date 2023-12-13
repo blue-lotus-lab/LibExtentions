@@ -24,6 +24,7 @@ Public solidity libraries version 0.1.3
 | 18 | **REGX ASCII** "character set validation" | [here](./RegxAsciiSet.sol) |
 | 19 | **REGX UTF8** "character set validation" | [here](./RegxUtf8Set.sol) |
 | 20 | **OPCODE** "op-code utils" | [here](./OPCODE.sol) |
+| 20 | **Defi Errors** "error utils" | [here](./DefiErrors.sol) |
 
 - Details and helper/example included into snippets.
 
