@@ -152,3 +152,92 @@ Which solution shines brighter—this one or ECDS alternatives such as merkle-pr
 
 ## Disclaimer
 This is just a tutorial example, not a product code. Just inspire from this.
+
+## Simple Usecase
+Simple ICO with using ZK-Proof.
+- using `nonce` for safety 
+- 
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+// ZK example for verify
+contract ZKVerifier {
+    mapping(address => bytes32) private userSecrets;
+    mapping(address => uint256) public nonces;
+
+    event ProofVerified(address indexed prover, bool success);
+
+    function setSecret(bytes32 _secret) external {
+        require(userSecrets[msg.sender] == bytes32(0), "Secret already set");
+        userSecrets[msg.sender] = _secret;
+    }
+
+    function generateProof() internal view returns (bytes32) {
+        require(userSecrets[msg.sender] != bytes32(0), "User secret not set");
+        // todo: need a check for nonce, nonce must be unique for each user wallet
+        uint256 nonce = _nonce(); // nonces[msg.sender]++;
+        return sha256(abi.encodePacked(nonce, userSecrets[msg.sender]));
+    }
+
+    function verifyProof(uint256 nonce, bytes32 proof) external returns (bool) {
+        require(nonce < nonces[msg.sender], "Invalid nonce");
+        bytes32 hashedData = sha256(abi.encodePacked(nonce, userSecrets[msg.sender]));
+        bool success = hashedData == proof;
+
+        emit ProofVerified(msg.sender, success);
+
+        return success;
+    }
+
+    function _nonce() internal view returns (uint256) {
+        return uint256(keccak256(abi.encodePacked(msg.sender, block.timestamp, block.number)));
+    }
+}
+
+// Simple ICO, used zk-proof
+import {IERC20, ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
+import {Address} from "@openzeppelin/contracts/utils/Address.sol";
+
+contract ICO is ZKVerifier, ERC20, Ownable {
+    using SafeERC20 for IERC20;
+    using Address for address;
+
+    ZKVerifier private verifier;
+
+    uint256 public constant ICO_TOKEN_PRICE = 1 ether;
+    uint256 public constant MAX_TOKENS_FOR_SALE = 1000000 * (10**18);
+    uint256 public tokensSold;
+
+    event TokensPurchased(address indexed buyer, uint256 amount, uint256 totalTokensSold);
+
+    constructor(address initialOwner) ERC20("IcoToken", "ICO") Ownable(initialOwner) {
+        verifier = ZKVerifier(this);
+        // _mint(msg.sender, MAX_TOKENS_FOR_SALE);
+        _mint(address(this), MAX_TOKENS_FOR_SALE);
+    }
+    
+    function buyTokens(uint256 nonce, bytes32 proof) external payable {
+        require(verifier.verifyProof(nonce, proof), "Invalid proof");
+
+        uint256 tokensToBuy = msg.value / ICO_TOKEN_PRICE;
+
+        require(tokensToBuy > 0 && tokensSold + tokensToBuy <= MAX_TOKENS_FOR_SALE, "Not enough tokens available for sale");
+
+        // Update state before interacting with external contracts
+        tokensSold += tokensToBuy;
+
+        // Emit event for the state change
+        emit TokensPurchased(msg.sender, tokensToBuy, tokensSold);
+
+        // Transfer tokens after state is updated
+        IERC20(address(this)).safeTransferFrom(address(this), msg.sender, tokensToBuy);
+    }
+
+    function withdrawEther() external onlyOwner {
+        Address.sendValue(payable(owner()), address(this).balance);
+    }
+}
+```
