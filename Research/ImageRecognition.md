@@ -41,18 +41,19 @@ The Moore curve, named after Eliakim Hastings Moore, is a space-filling curve wi
 
 The Moore curve is generated through a recursive process that divides a 2D space into quadrants. This recursive subdivision continues until a desired level of detail is reached. The traversal of each quadrant contributes to the self-replicating pattern of the curve. The curve's mathematical formulation involves defining a set of coordinates that correspond to the curve's path through the grid.
 
-Mathematically, let \(M_n\) denote the Moore curve of order \(n\). The recursive definition of the Moore curve involves dividing the current quadrant into four subquadrants, labeled as North (N), East (E), South (S), and West (W). The sequence of directions that the curve follows is given by:
+Mathematically, let $\(M_n\)$ denote the Moore curve of order $\(n\)$. The recursive definition of the Moore curve involves dividing the current quadrant into four subquadrants, labeled as North `(N)`, East `(E)`, South `(S)`, and West `(W)`. The sequence of directions that the curve follows is given by:
 
-\[N, E, S, W, N, E, S, W, \ldots\]
+$\[N, E, S, W, N, E, S, W, \ldots\]$
 
 At each recursion level, the curve traverses the subquadrants in a clockwise direction, forming a path that densely covers the entire space.
 
-The generation of the Moore curve can be expressed as a set of recursive equations. Given a starting point \((x_0, y_0)\) and an order \(n\), the coordinates of the points on the Moore curve can be computed iteratively as follows:
+The generation of the Moore curve can be expressed as a set of recursive equations. Given a starting point $\((x_0, y_0)\)$ and an order $\(n\)$, the coordinates of the points on the Moore curve can be computed iteratively as follows:
 
-\[x_{k+1} = x_k + \frac{{\text{{width}}}}{2},\]
-\[y_{k+1} = y_k + \frac{{\text{{height}}}}{2},\]
+$\[x_{k+1} = x_k + \frac{{\text{{width}}}}{2},\]$
 
-where \(k\) represents the current recursion level, and \(\text{{width}}\) and \(\text{{height}}\) represent the dimensions of the current subquadrant.
+$\[y_{k+1} = y_k + \frac{{\text{{height}}}}{2},\]$
+
+where $\(k\)$ represents the current recursion level, and $\(\text{{width}}\)$ and $\(\text{{height}}\)$ represent the dimensions of the current subquadrant.
 
 This recursive process results in a set of coordinates that trace the intricate path of the Moore curve through the 2D space. The self-replicating nature of the curve ensures that it densely covers every point within the grid, providing a unique and comprehensive representation of the underlying space.
 
@@ -422,13 +423,8 @@ This article introduces a novel approach to image representation and recognition
 
 **1. Mathematical Foundations of the Moore Curve:**
 
-- **Coordinate Update in x:** \(x_{k+1} = x_k + \frac{{\text{{width}}}}{2}\)
-  
-    Coordinate Update in x: xk+1=xk+width2xk+1​=xk​+2width​
-  
-- **Coordinate Update in y:** \(y_{k+1} = y_k + \frac{{\text{{height}}}}{2}\)
-  
-    Coordinate Update in y: yk+1=yk+height2yk+1​=yk​+2height​
+- **Coordinate Update in x:** $\(x_{k+1} = x_k + \frac{{\text{{width}}}}{2}\)$    
+- **Coordinate Update in y:** $\(y_{k+1} = y_k + \frac{{\text{{height}}}}{2}\)$
 
 **2. Image Representation Using the Moore Curve:**
 
