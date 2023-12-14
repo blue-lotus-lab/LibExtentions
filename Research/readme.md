@@ -8,6 +8,7 @@
 - [Exploring Future Solutions for Efficient Cryptocurrency Swaps](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/Swap-New-Solutions.md)
 - [Leveraging Directed Acyclic Graph (DAG) Logic in Ethereum Smart Contracts](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/DAG-in-Blockchain-Use-Smartcontract.md)
 - [Transforming Global Supply Chains with Blockchain Technology](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/Global-Supply-Chains-With-Blockchain.md)
+- [Fractal image recognition](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/ImageRecognition.md)
 
 ---
 
