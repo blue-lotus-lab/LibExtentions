@@ -424,7 +424,11 @@ This article introduces a novel approach to image representation and recognition
 
 - **Coordinate Update in x:** \(x_{k+1} = x_k + \frac{{\text{{width}}}}{2}\)
   
+    Coordinate Update in x: xk+1=xk+width2xk+1​=xk​+2width​
+  
 - **Coordinate Update in y:** \(y_{k+1} = y_k + \frac{{\text{{height}}}}{2}\)
+  
+    Coordinate Update in y: yk+1=yk+height2yk+1​=yk​+2height​
 
 **2. Image Representation Using the Moore Curve:**
 
