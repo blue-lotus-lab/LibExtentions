@@ -1,3 +1,7 @@
+| Type            | Activity      | Status | Latest Revision  |
+|-----------------|---------------|--------|------------------|
+| Research        | On-Going      | Active | R-1, 2023-07-13  |
+
 # Fractal-Based Image Representation and Recognition
 **Title: Fractal-Based Image Representation and Recognition Using Moore Curves**
 
@@ -482,3 +486,9 @@ This article introduces a novel approach to image representation and recognition
 - **Synergy of Fractal Geometry and Image Recognition:** The convergence of fractal geometry and image recognition as a promising direction.
 
 - **Future Exploration:** The need for ongoing research, refinement, and validation against diverse datasets and real-world applications.
+
+---
+
+[LotusChain](https://lotuschain.org) | [Lotus Lab](https://github.com/blue-lotus-lab) | contact@lotuschain.org
+
+> All researches made by LotusResearchLab
