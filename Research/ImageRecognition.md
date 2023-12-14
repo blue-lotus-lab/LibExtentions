@@ -376,6 +376,17 @@ The preliminary success of the Moore curve-based image recognition methodology o
 
 In conclusion, the results and discussion section not only interprets the outcomes of the preliminary experiments but also lays the groundwork for refining the methodology and exploring its broader implications. By identifying areas for refinement, discussing the methodology's potential, and comparing it with existing methods, this section contributes to the ongoing discourse in the field of image recognition.
 
+**5.6 Algorithm's Time Complexity:**
+
+5.6.1. **Generating Moore Curve (Recursive Process):** The generation of the Moore curve involves a recursive process. If the order of the curve is denoted as $\(m\)$, the number of points generated is $\(4^m\)$. Therefore, the complexity of the curve generation can be expressed as $\(O(4^m)\)$.
+
+5.6.2. **Sampling Points Along the Curve:** Sampling points along the Moore curve involves iterating through the generated coordinates. The number of points sampled is directly proportional to the number of points in the Moore curve, which is $\(O(4^m)\)$.
+
+5.6.3. **Feature Extraction and Classifier Training:** The feature extraction and classifier training steps depend on the number of sampled points. If $\(k\)$ is the number of sampled points, the time complexity for these steps could be $\(O(k)\)$.
+
+Considering these components, a rough overall time complexity for the algorithm might be $\(O(4^m + k)\)$, where $\(m\)$ is the order of the Moore curve and $\(k\)$ is the number of sampled points.
+
+
 ### Conclusion:
 
 The exploration of image representation and recognition using the Moore curve presents a compelling approach that integrates fractal geometry into the realm of computer vision. The following section encapsulates the key findings, implications, and potential avenues for future research, providing a comprehensive conclusion to the proposed methodology.
