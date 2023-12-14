@@ -1,6 +1,6 @@
-| Type            | Activity      | Status | Latest Revision  |
-|-----------------|---------------|--------|------------------|
-| Research        | On-Going      | Active | R-1, 2023-07-13  |
+| Type            | Activity      | Status | Latest Revision  | Why |
+|-----------------|---------------|--------|------------------|-----|
+| Research        | On-Going      | Active | R-1, 2023-07-13  | We use this on our DAG methodology, present as soon |
 
 # Fractal-Based Image Representation and Recognition
 **Title: Fractal-Based Image Representation and Recognition Using Moore Curves**
