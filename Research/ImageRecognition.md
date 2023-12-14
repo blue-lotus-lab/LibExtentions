@@ -58,7 +58,7 @@ This recursive process results in a set of coordinates that trace the intricate 
 
 Understanding the mathematical foundations of the Moore curve is essential not only for its generation but also for its application in image representation. The recursive nature of the curve allows for adaptability to different levels of detail, making it a versatile tool for capturing complex structures within images. The coordinates derived from the Moore curve serve as sampling points for subsequent feature extraction, forming the basis of a novel approach to image representation and recognition.
 
-{all the furmula at the end of article [1^]}
+{all the furmula at the end of article [1^](#####ImageRecognition.md#1mathematics-used-in-this-article)}
 
 ### Image Representation Using the Moore Curve:
 
@@ -415,6 +415,8 @@ This article introduces a novel approach to image representation and recognition
 
 
 ---
+
+### Internal References:
 
 ##### [1^]Mathematics used in this article:
 
