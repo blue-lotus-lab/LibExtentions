@@ -92,7 +92,16 @@ function findArb(pairs, tokenIn, tokenOut, maxHops, currentPairs, path, bestTrad
             }
         } else if (maxHops > 1 && pairs.length > 1) {
             let pairsExcludingThisPair = pairs.slice(0, i).concat(pairs.slice(i + 1));
-            bestTrades = findArb(pairsExcludingThisPair, tempOut, tokenOut, maxHops - 1, currentPairs.concat([pair]), newPath, bestTrades, count);
+            bestTrades = findArb(
+            pairsExcludingThisPair,
+            tempOut,
+            tokenOut,
+            maxHops - 1,
+            currentPairs.concat([pair]),
+            newPath,
+            bestTrades,
+            count
+            );
         }
     }
     return bestTrades;
@@ -169,13 +178,23 @@ function findArb(
                 }
             }
 
-            bestTrades = findArb(pairsExcludingThisPair, tempOut, tokenOut, maxHops - 1, currentPairs.concat([pair]), newPath, bestTrades, count);
+            bestTrades = findArb(
+            pairsExcludingThisPair,
+            tempOut,
+            tokenOut,
+            maxHops - 1,
+            currentPairs.concat([pair]),
+            newPath,
+            bestTrades,
+            count
+            );
         }
     }
     return bestTrades;
 }
 /*
-Solidity does not support dynamic arrays as function parameters, so I've used fixed-size arrays and modified the code accordingly. Adjustments might be necessary based on your specific Solidity contract and utility functions.
+Solidity does not support dynamic arrays as function parameters, so I've used fixed-size arrays and
+modified the code accordingly. Adjustments might be necessary based on your specific Solidity contract and utility functions.
 */
 ```
 
