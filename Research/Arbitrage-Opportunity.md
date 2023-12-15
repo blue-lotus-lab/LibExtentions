@@ -49,7 +49,54 @@ $\[ \text{totalProfit}(\Delta p) = \sum_{i=1}^{n} \text{profit}(p_i) \]$
 
 where $\( n \)$ is the number of trades executed during $\( \Delta p \)$, and $\( p_i \)$ represents the time of the $\( i \)-th$ trade.
 
+### Example code:
+Arbitrage path finding from a dex
+> code for example
 
+```js
+function findArb(pairs, tokenIn, tokenOut, maxHops, currentPairs, path, bestTrades, count = 5) {
+    for (let i = 0; i < pairs.length; i++) {
+        let newPath = [...path];
+        let pair = pairs[i];
+
+        if (!(pair.token0.address === tokenIn.address) && !(pair.token1.address === tokenIn.address)) {
+            continue;
+        }
+
+        if (pair.reserve0 / Math.pow(10, pair.token0.decimal) < 1 || pair.reserve1 / Math.pow(10, pair.token1.decimal) < 1) {
+            continue;
+        }
+
+        let tempOut = (tokenIn.address === pair.token0.address) ? pair.token1 : pair.token0;
+        newPath.push(tempOut);
+
+        if (tempOut.address === tokenOut.address && path.length > 2) {
+            let { Ea, Eb } = getEaEb(tokenOut, currentPairs.concat([pair]));
+            let newTrade = { route: currentPairs.concat([pair]), path: newPath, Ea, Eb };
+
+            if (Ea && Eb && Ea < Eb) {
+                newTrade.optimalAmount = getOptimalAmount(Ea, Eb);
+
+                if (newTrade.optimalAmount > 0) {
+                    newTrade.outputAmount = getAmountOut(newTrade.optimalAmount, Ea, Eb);
+                    newTrade.profit = newTrade.outputAmount - newTrade.optimalAmount;
+                    newTrade.p = Math.floor(newTrade.profit) / Math.pow(10, tokenOut.decimal);
+                } else {
+                    continue;
+                }
+
+                bestTrades = sortTrades(bestTrades, newTrade);
+                bestTrades.reverse();
+                bestTrades = bestTrades.slice(0, count);
+            }
+        } else if (maxHops > 1 && pairs.length > 1) {
+            let pairsExcludingThisPair = pairs.slice(0, i).concat(pairs.slice(i + 1));
+            bestTrades = findArb(pairsExcludingThisPair, tempOut, tokenOut, maxHops - 1, currentPairs.concat([pair]), newPath, bestTrades, count);
+        }
+    }
+    return bestTrades;
+}
+```
 
 ### Methodology:
 1. **Data Collection:** Collect historical price data for asset1, asset2, and asset3 over different time intervals.
