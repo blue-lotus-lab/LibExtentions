@@ -11,6 +11,8 @@
 - [Fractal Image Recognition](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/ImageRecognition.md) `Core of BLUE LOTUS DAG Methodology`
 - [Arbitrage Opportunities in Decentralized Exchanges](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/Arbitrage-Opportunity.md)
 
+> Research made by a team, not a person. We are limit to have assets and data to make these better. Enjoy it!
+
 ---
 
 <div align="right">
