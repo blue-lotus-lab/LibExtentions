@@ -27,7 +27,15 @@ Let $\( p \)$ represent time, and $\( \text{basePrice} \)$ denote the stable pri
 
 Let $\( \text{arbitrageCondition}(p) \)$ be a binary function representing the arbitrage condition at time $\( p \)$:
 
+<!--
 \[ \text{arbitrageCondition}(p) = \begin{cases} 1 & \text{if } \text{price3}(p) < \min(\text{price1}(p), \text{price2}(p)) \\ 0 & \text{otherwise} \end{cases} \]
+-->
+
+[**arbitrageCondition(p)={10​if price3(p)<min(price1(p),price2(p))otherwise​0**]
+
+arbitrageCondition(p)=\
+1: if price3(p)<min(price1(p),price2(p))\
+0: otherwise
 
 This function evaluates to 1 when an arbitrage opportunity is present and 0 otherwise.
 
