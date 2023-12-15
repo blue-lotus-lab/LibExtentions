@@ -9,6 +9,7 @@
 - [Leveraging Directed Acyclic Graph (DAG) Logic in Ethereum Smart Contracts](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/DAG-in-Blockchain-Use-Smartcontract.md)
 - [Transforming Global Supply Chains with Blockchain Technology](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/Global-Supply-Chains-With-Blockchain.md)
 - [Fractal Image Recognition](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/ImageRecognition.md) `Core of BLUE LOTUS DAG Methodology`
+- [Arbitrage Opportunities in Decentralized Exchanges](https://github.com/blue-lotus-lab/LibExtentions/blob/main/Research/Arbitrage-Opportunity.md)
 
 ---
 
