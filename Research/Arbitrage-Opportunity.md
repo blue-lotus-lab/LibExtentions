@@ -53,6 +53,7 @@ where $\( n \)$ is the number of trades executed during $\( \Delta p \)$, and $\
 Arbitrage path finding from a dex
 > code for example
 
+- Javascript version
 ```js
 function findArb(pairs, tokenIn, tokenOut, maxHops, currentPairs, path, bestTrades, count = 5) {
     for (let i = 0; i < pairs.length; i++) {
@@ -96,6 +97,86 @@ function findArb(pairs, tokenIn, tokenOut, maxHops, currentPairs, path, bestTrad
     }
     return bestTrades;
 }
+```
+
+- Solidity example
+```solidity
+// Assuming required utility functions are available in the contract
+// getEaEb, getOptimalAmount, getAmountOut, sortTrades
+
+function findArb(
+    Pair[] memory pairs,
+    Token memory tokenIn,
+    Token memory tokenOut,
+    uint256 maxHops,
+    Pair[] memory currentPairs,
+    Token[] memory path,
+    Trade[] memory bestTrades,
+    uint256 count
+) public pure returns (Trade[] memory) {
+    for (uint256 i = 0; i < pairs.length; i++) {
+        Token[] memory newPath = new Token[](path.length);
+        for (uint256 j = 0; j < path.length; j++) {
+            newPath[j] = path[j];
+        }
+
+        Pair memory pair = pairs[i];
+
+        if (!(pair.token0.address == tokenIn.address) && !(pair.token1.address == tokenIn.address)) {
+            continue;
+        }
+
+        if (pair.reserve0 / (10**pair.token0.decimal) < 1 || pair.reserve1 / (10**pair.token1.decimal) < 1) {
+            continue;
+        }
+
+        Token memory tempOut = (tokenIn.address == pair.token0.address) ? pair.token1 : pair.token0;
+        newPath[newPath.length++] = tempOut;
+
+        if (tempOut.address == tokenOut.address && path.length > 2) {
+            (uint256 Ea, uint256 Eb) = getEaEb(tokenOut, currentPairs.concat([pair]));
+            Trade memory newTrade = Trade({
+                route: currentPairs.concat([pair]),
+                path: newPath,
+                Ea: Ea,
+                Eb: Eb,
+                optimalAmount: 0,
+                outputAmount: 0,
+                profit: 0,
+                p: 0
+            });
+
+            if (Ea > 0 && Eb > 0 && Ea < Eb) {
+                newTrade.optimalAmount = getOptimalAmount(Ea, Eb);
+
+                if (newTrade.optimalAmount > 0) {
+                    newTrade.outputAmount = getAmountOut(newTrade.optimalAmount, Ea, Eb);
+                    newTrade.profit = newTrade.outputAmount - newTrade.optimalAmount;
+                    newTrade.p = newTrade.profit / (10**tokenOut.decimal);
+                } else {
+                    continue;
+                }
+
+                bestTrades = sortTrades(bestTrades, newTrade);
+                bestTrades = bestTrades.slice(0, int256(count));
+            }
+        } else if (maxHops > 1 && pairs.length > 1) {
+            Pair[] memory pairsExcludingThisPair = new Pair[](pairs.length - 1);
+            uint256 index = 0;
+            for (uint256 j = 0; j < pairs.length; j++) {
+                if (j != i) {
+                    pairsExcludingThisPair[index++] = pairs[j];
+                }
+            }
+
+            bestTrades = findArb(pairsExcludingThisPair, tempOut, tokenOut, maxHops - 1, currentPairs.concat([pair]), newPath, bestTrades, count);
+        }
+    }
+    return bestTrades;
+}
+/*
+Solidity does not support dynamic arrays as function parameters, so I've used fixed-size arrays and modified the code accordingly. Adjustments might be necessary based on your specific Solidity contract and utility functions.
+*/
 ```
 
 ### Methodology:
