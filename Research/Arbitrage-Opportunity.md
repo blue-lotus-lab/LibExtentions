@@ -26,15 +26,19 @@ Now, Let's extend the "Mathematical Formulation" to provide a more detailed expl
 Let $\( p \)$ represent time, and $\( \text{basePrice} \)$ denote the stable price of 1 unit. The prices of the three assets at time $\( p \)$ are $\( \text{price1}(p) \)$, $\( \text{price2}(p) \)$, and $\( \text{price3}(p) \)$ for asset1, asset2, and asset3, respectively.
 
 Let $\( \text{arbitrageCondition}(p) \)$ be a binary function representing the arbitrage condition at time $\( p \)$:
+
 \[ \text{arbitrageCondition}(p) = \begin{cases} 1 & \text{if } \text{price3}(p) < \min(\text{price1}(p), \text{price2}(p)) \\ 0 & \text{otherwise} \end{cases} \]
 
 This function evaluates to 1 when an arbitrage opportunity is present and 0 otherwise.
 
 To quantify the potential profit from exploiting an arbitrage opportunity, introduce the concept of a trade. Let $\( \text{tradeAmount} \)$ represent the quantity of asset3 traded, $\( \text{buyPrice} \)$ denote the buying price, and $\( \text{sellPrice} \)$ represent the selling price. The profit $\( \text{profit}(p) \)$ from a single trade at time $\( p \)$ can be expressed as:
+
 $\[ \text{profit}(p) = \text{tradeAmount} \cdot (\text{sellPrice} - \text{buyPrice}) \]$
 
 To maximize profit, traders might consider executing multiple trades within a given time period $\( \Delta p \)$. The total profit $\( \text{totalProfit} \)$ during this interval can be expressed as the sum of profits from individual trades:
+
 $\[ \text{totalProfit}(\Delta p) = \sum_{i=1}^{n} \text{profit}(p_i) \]$
+
 where $\( n \)$ is the number of trades executed during $\( \Delta p \)$, and $\( p_i \)$ represents the time of the $\( i \)-th$ trade.
 
 
