@@ -32,11 +32,11 @@ Let $\( \text{arbitrageCondition}(p) \)$ be a binary function representing the a
 -->
 
 [**arbitrageCondition(p)={10​if price3(p)<min(price1(p),price2(p))otherwise​0**]
-
-arbitrageCondition(p)=\
-1: if price3(p)<min(price1(p),price2(p))\
+```
+arbitrageCondition(p)=
+1: if price3(p)<min(price1(p),price2(p))
 0: otherwise
-
+```
 This function evaluates to 1 when an arbitrage opportunity is present and 0 otherwise.
 
 To quantify the potential profit from exploiting an arbitrage opportunity, introduce the concept of a trade. Let $\( \text{tradeAmount} \)$ represent the quantity of asset3 traded, $\( \text{buyPrice} \)$ denote the buying price, and $\( \text{sellPrice} \)$ represent the selling price. The profit $\( \text{profit}(p) \)$ from a single trade at time $\( p \)$ can be expressed as:
